@@ -1,5 +1,6 @@
 * environment setting
-* pick languages, design
+* python flask, dash(current), pandas, MySQL
+
 # Getting Started
 ---
 environment setting guide
