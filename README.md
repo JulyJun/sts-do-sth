@@ -1,4 +1,4 @@
-*** Make sure update your file after work, also pull git from github before your work begin ***
+*** Make sure push your work after things done, also pull git from github before your work begin ***
 
 * environment setting
 * python flask, dash(current), pandas, MySQL
