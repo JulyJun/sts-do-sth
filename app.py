@@ -1,8 +1,12 @@
-# save this as app.py, more testing
-from flask import Flask
+# this is to host the webpage with dash instead
+# of Flask
+from dash import Dash, html
 
-app = Flask(__name__)
+app = Dash(__name__)
 
-@app.route("/")
-def hello():
-    return "Hello, World!"
+app.layout = html.Div([
+    html.Div(children='Hello World')
+])
+
+if __name__ == '__main__':
+    app.run(debug=True)
