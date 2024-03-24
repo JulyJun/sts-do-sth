@@ -1,3 +1,5 @@
+*** Make sure push your work after things done, also pull git from github before your work begin ***
+
 * environment setting
 * python flask, dash(current), pandas, MySQL
 * This is a test
