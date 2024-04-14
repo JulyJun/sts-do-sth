@@ -1,4 +1,4 @@
-import mysql.connector
+import mysql.connector as mysql
 
 def connect_to_mysql():
     # MySQL connection setting
@@ -12,7 +12,7 @@ def connect_to_mysql():
 
     # MySQL connect
     try:
-        conn = mysql.connector.connect(**config)
+        conn = mysql.connect(**config)
         print("connect successful.")
         return conn
     except mysql.connector.Error as err:
