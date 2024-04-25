@@ -80,6 +80,7 @@ CREATE TABLE mode_info (
 
 #
 # creating "run table"
+# run table is depending on 4 diff tables so it does not allow any insertion
 #
 CREATE TABLE run (
 	idx INT AUTO_INCREMENT,
