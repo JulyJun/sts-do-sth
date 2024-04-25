@@ -10,7 +10,7 @@
 ---
 
 ## Installation
-pip install -r requirements.txt
+command to install requirements: pip install -r requirements.txt
 
 ## environment setting guide
 
